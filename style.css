@@ -58,15 +58,16 @@ p,a,span {
 }
 
 .carousel_indicator {
+  margin-top: 20px;
   width: 60px;
   height: 6px;
-  background-color: var(--clr-lightgreen);
+  background-color: rgba(188, 203, 185, 1);
   border: none;
   border-radius: 8px;
 }
 
 .carousel_indicator.current_slide {
-  background-color: var(--clr-primary);
+  background-color: rgba(75, 97, 71, 1);
 }
 
 .is-done {
