@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <script defer src="./carousel.js"></script>
+  <title>Carousel With Indicator</title>
+</head>
+<body>
+  <div>
+    <section class="case">
+      <h1>Carousel With Indicator</h1>
+      <div class="carousel-control mobile-only">
+        <div class="slider-container">
+          <div class="button-container">
+            <img src="./src/icons/chevron_left.svg" alt="" class="chevron-left is-done">
+            <span></span>
+            <img src="./src/icons/chevron_right.svg" alt="" class="chevron-right">
+          </div>
+        </div>
+        <div class="indicator-container">
+          <button class="carousel_indicator current_slide"></button>
+          <button class="carousel_indicator"></button>
+          <button class="carousel_indicator"></button>
+        </div>
+      </div>
+      <div class="carousel_track-container case-item-container">
+        <div class="slider-container carousel_track">
+          <div class="case-item card-content current_slide">
+            <div class="text">
+              <h4>Lorem ipsum dolor sit.</h4>
+              <p class="member">Alpha - 11</p>
+              <h5>Category</h5>
+              <div class="tag-container">
+                <span class="tag">lorem</span>
+                <span class="tag">ipsum</span>
+                <span class="tag">dolor</span>
+              </div>
+              <h5>Description</h5>
+              <p class="outcome">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ut adipisci a expedita error amet fugiat quibusdam nostrum mollitia cum!</p>
+            </div>
+          </div>
+          <div class="case-item card-content">
+            <div class="text">
+              <h4>Lorem ipsum dolor sit amet.</h4>
+              <p class="member">Beta - 99</p>
+              <h5>Category</h5>
+              <div class="tag-container">
+                <span class="tag">Lorem</span>
+                <span class="tag">sit</span>
+                <span class="tag">amet</span>
+                <span class="tag">consectetur</span>
+                <span class="tag">adipisicing</span>
+                <span class="tag">Nisi</span>
+              </div>
+              <h5>Description</h5>
+              <p class="outcome">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto aliquam aspernatur quas. Nisi voluptate, maxime corporis ab voluptatum minima aspernatur. Optio maxime earum vel nostrum.</p>
+            </div>
+          </div>
+          <div class="case-item card-content">
+            <div class="text">
+              <h4>Lorem, ipsum dolor.</h4>
+              <p class="member">Gamma - 44</p>
+              <h5>Category</h5>
+              <div class="tag-container">
+                <span class="tag">consectetur</span>
+                <span class="tag">ipsum</span>
+                <span class="tag">sit amet</span>
+              </div>
+              <h5>Description</h5>
+              <p class="outcome">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consequuntur eligendi voluptate assumenda ipsam vel illo voluptatibus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
